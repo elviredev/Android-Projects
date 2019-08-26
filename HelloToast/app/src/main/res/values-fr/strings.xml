@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">HelloToast</string>
+    <string name="toast">Toaster</string>
+    <string name="count">Compter</string>
+    <string name="count_initial_value">0</string>
+    <string name="msgToast">Toast activé  :)</string>
+</resources>
