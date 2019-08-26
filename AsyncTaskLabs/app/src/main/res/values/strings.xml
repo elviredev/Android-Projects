@@ -1,0 +1,12 @@
+<resources>
+    <string name="app_name">AsyncTaskLabs</string>
+    <string name="action_settings">Settings</string>
+    <string name="ready_to_start">I am ready to start work!</string>
+    <string name="start_task">Start Task</string>
+    <string name="changing_stuff">Changing stuff upon clicking</string>
+    <string name="clicking_start">Clicking on start task</string>
+    <string name="testing_text">we are testing something...</string>
+    <!--%1$s : 1er paramètre et "s" pour string-->
+    <string name="reveil2">Reveillez-vous après une sieste de %1$s secondes :p</string>
+
+</resources>
