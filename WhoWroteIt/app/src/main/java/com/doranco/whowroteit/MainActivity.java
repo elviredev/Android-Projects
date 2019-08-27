@@ -36,8 +36,8 @@ public class MainActivity extends AppCompatActivity implements LoaderManager.Loa
         mAuthorText = findViewById(R.id.authorText);
         mBookInput = findViewById(R.id.bookInput);
 
-        if(getSupportLoaderManager().getLoader(0)!=null){
-            getSupportLoaderManager().initLoader(0,null,this);
+        if(LoaderManager.getInstance(this).getLoader(0)!=null){
+            LoaderManager.getInstance(this).initLoader(0,null,this);
         }
     }
 
@@ -73,7 +73,7 @@ public class MainActivity extends AppCompatActivity implements LoaderManager.Loa
             Bundle queryBundle = new Bundle();
             queryBundle.putString("queryString", queryString);
             // Lancer l'asynctaskloader
-            getSupportLoaderManager().restartLoader(0, queryBundle, this);
+            LoaderManager.getInstance(this).restartLoader(0, queryBundle, this).forceLoad();
 
             mAuthorText.setText("");
             mTitleText.setText(R.string.loading);
