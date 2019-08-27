@@ -2,14 +2,19 @@
   <dictionary name="stagiaire">
     <words>
       <w>affiche</w>
+      <w>afficher</w>
       <w>ajout</w>
       <w>appel</w>
+      <w>appuie</w>
       <w>arrière</w>
       <w>aucun</w>
       <w>autorisations</w>
       <w>avec</w>
+      <w>bouton</w>
       <w>cette</w>
+      <w>chargement</w>
       <w>chaîne</w>
+      <w>connecté</w>
       <w>conserver</w>
       <w>constante</w>
       <w>contenant</w>
@@ -19,16 +24,21 @@
       <w>courant</w>
       <w>créer</w>
       <w>depuis</w>
+      <w>disponible</w>
       <w>données</w>
       <w>définit</w>
       <w>effacer</w>
       <w>entrante</w>
       <w>entrantes</w>
+      <w>existe</w>
       <w>faire</w>
       <w>fermer</w>
       <w>jour</w>
       <w>ligne</w>
+      <w>lorsque</w>
       <w>mettre</w>
+      <w>mise</w>
+      <w>mises</w>
       <w>méthode</w>
       <w>objet</w>
       <w>obtenir</w>
@@ -36,9 +46,12 @@
       <w>paramètres</w>
       <w>parcourir</w>
       <w>partir</w>
+      <w>rechercher</w>
+      <w>requête</w>
       <w>récupère</w>
       <w>récupéré</w>
       <w>réponse</w>
+      <w>réseau</w>
       <w>résultat</w>
       <w>sinon</w>
       <w>stocker</w>
@@ -48,9 +61,11 @@
       <w>tâche</w>
       <w>utilisateur</w>
       <w>utiliser</w>
+      <w>utilisée</w>
       <w>valeur</w>
       <w>valides</w>
       <w>vide</w>
+      <w>vérifier</w>
       <w>élément</w>
     </words>
   </dictionary>
