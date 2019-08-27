@@ -7,6 +7,8 @@ import android.view.View;
 import android.widget.EditText;
 import android.widget.TextView;
 
+import com.doranco.async_task.FetchBook;
+
 public class MainActivity extends AppCompatActivity {
 
     private TextView mTitleText;
@@ -25,5 +27,8 @@ public class MainActivity extends AppCompatActivity {
 
     public void searchBooks(View view) {
         String queryString = mBookInput.getText().toString();
+        // lance la tâche en arrière-plan
+        FetchBook fetchBook = new FetchBook(mTitleText, mAuthorText);
+        fetchBook.execute(queryString);
     }
 }
