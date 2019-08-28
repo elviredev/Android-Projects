@@ -21,6 +21,7 @@ public class MyIntentService extends IntentService {
     @Override
     protected void onHandleIntent(Intent intent) { // cette méthode s'exécute en background
         Log.d(TAG, "Intent service is running...");
+        // ajouter les tâches de l'asynctask vu en cours
         try {
             Thread.sleep(5000);
         } catch (InterruptedException e) {
