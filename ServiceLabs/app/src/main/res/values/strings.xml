@@ -5,4 +5,5 @@
     <string name="starting_service">Starting a service</string>
     <string name="stopping_service">Stopping a service</string>
     <string name="start_an_intent_service">Start an Intent service</string>
+    <string name="stop_an_intent_service">Stop an Intent Service</string>
 </resources>

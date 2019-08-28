@@ -17,6 +17,7 @@
             </intent-filter>
         </activity>
         <service android:name="com.doranco.services.MyService"></service>
+        <service android:name="com.doranco.services.MyIntentService" android:exported="false"/>
     </application>
 
 </manifest>

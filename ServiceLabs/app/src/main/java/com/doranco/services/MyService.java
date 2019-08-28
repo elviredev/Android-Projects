@@ -16,7 +16,6 @@ public class MyService extends Service {
     }
 
     public MyService() {
-
         super();
     }
 
