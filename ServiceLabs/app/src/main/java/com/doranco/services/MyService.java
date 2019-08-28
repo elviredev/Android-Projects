@@ -16,6 +16,7 @@ public class MyService extends Service {
     }
 
     public MyService() {
+
         super();
     }
 
@@ -28,5 +29,6 @@ public class MyService extends Service {
     @Override
     public void onDestroy() {
         super.onDestroy();
+        Toast.makeText(this, getApplicationContext().getString(R.string.stopping_service), Toast.LENGTH_SHORT).show();
     }
 }
