@@ -1,9 +1,9 @@
 -- Merging decision tree log ---
 manifest
-ADDED from C:\Users\stagiaire\Documents\GitHub\Android-Projects\HelloSharedPrefs\android-fundamentals-starter-apps-v2\HelloSharedPrefs\app\src\main\AndroidManifest.xml:15:1-32:12
-INJECTED from C:\Users\stagiaire\Documents\GitHub\Android-Projects\HelloSharedPrefs\android-fundamentals-starter-apps-v2\HelloSharedPrefs\app\src\main\AndroidManifest.xml:15:1-32:12
-INJECTED from C:\Users\stagiaire\Documents\GitHub\Android-Projects\HelloSharedPrefs\android-fundamentals-starter-apps-v2\HelloSharedPrefs\app\src\main\AndroidManifest.xml:15:1-32:12
-INJECTED from C:\Users\stagiaire\Documents\GitHub\Android-Projects\HelloSharedPrefs\android-fundamentals-starter-apps-v2\HelloSharedPrefs\app\src\main\AndroidManifest.xml:15:1-32:12
+ADDED from C:\Users\stagiaire\Documents\GitHub\Android-Projects\HelloSharedPrefs\app\src\main\AndroidManifest.xml:15:1-32:12
+INJECTED from C:\Users\stagiaire\Documents\GitHub\Android-Projects\HelloSharedPrefs\app\src\main\AndroidManifest.xml:15:1-32:12
+INJECTED from C:\Users\stagiaire\Documents\GitHub\Android-Projects\HelloSharedPrefs\app\src\main\AndroidManifest.xml:15:1-32:12
+INJECTED from C:\Users\stagiaire\Documents\GitHub\Android-Projects\HelloSharedPrefs\app\src\main\AndroidManifest.xml:15:1-32:12
 MERGED from [com.android.support:appcompat-v7:27.1.1] C:\Users\stagiaire\.gradle\caches\transforms-2\files-2.1\5be613003c05b1879471f633d8088d47\AndroidManifest.xml:17:1-22:12
 MERGED from [com.android.support.constraint:constraint-layout:1.1.2] C:\Users\stagiaire\.gradle\caches\transforms-2\files-2.1\0a0a39e98ebddf5dadaabb7363703ef0\AndroidManifest.xml:2:1-11:12
 MERGED from [com.android.support:support-fragment:27.1.1] C:\Users\stagiaire\.gradle\caches\transforms-2\files-2.1\7b212e240883278b34f9f0b462e14201\AndroidManifest.xml:17:1-22:12
@@ -16,55 +16,55 @@ MERGED from [android.arch.lifecycle:livedata-core:1.1.0] C:\Users\stagiaire\.gra
 MERGED from [android.arch.lifecycle:viewmodel:1.1.0] C:\Users\stagiaire\.gradle\caches\transforms-2\files-2.1\bc23513a81988668f0fdffe10d6a22d8\AndroidManifest.xml:17:1-22:12
 MERGED from [android.arch.lifecycle:runtime:1.1.0] C:\Users\stagiaire\.gradle\caches\transforms-2\files-2.1\fcf8138f5ca2980f0ccb9eeb8d459b0e\AndroidManifest.xml:17:1-22:12
 MERGED from [android.arch.core:runtime:1.1.0] C:\Users\stagiaire\.gradle\caches\transforms-2\files-2.1\8009aeb2611141caf13c708fcc8b476e\AndroidManifest.xml:17:1-22:12
-INJECTED from C:\Users\stagiaire\Documents\GitHub\Android-Projects\HelloSharedPrefs\android-fundamentals-starter-apps-v2\HelloSharedPrefs\app\src\main\AndroidManifest.xml:15:1-32:12
-INJECTED from C:\Users\stagiaire\Documents\GitHub\Android-Projects\HelloSharedPrefs\android-fundamentals-starter-apps-v2\HelloSharedPrefs\app\src\main\AndroidManifest.xml:15:1-32:12
-INJECTED from C:\Users\stagiaire\Documents\GitHub\Android-Projects\HelloSharedPrefs\android-fundamentals-starter-apps-v2\HelloSharedPrefs\app\src\main\AndroidManifest.xml:15:1-32:12
+INJECTED from C:\Users\stagiaire\Documents\GitHub\Android-Projects\HelloSharedPrefs\app\src\main\AndroidManifest.xml:15:1-32:12
+INJECTED from C:\Users\stagiaire\Documents\GitHub\Android-Projects\HelloSharedPrefs\app\src\main\AndroidManifest.xml:15:1-32:12
+INJECTED from C:\Users\stagiaire\Documents\GitHub\Android-Projects\HelloSharedPrefs\app\src\main\AndroidManifest.xml:15:1-32:12
 	package
-		ADDED from C:\Users\stagiaire\Documents\GitHub\Android-Projects\HelloSharedPrefs\android-fundamentals-starter-apps-v2\HelloSharedPrefs\app\src\main\AndroidManifest.xml:16:11-57
-		INJECTED from C:\Users\stagiaire\Documents\GitHub\Android-Projects\HelloSharedPrefs\android-fundamentals-starter-apps-v2\HelloSharedPrefs\app\src\main\AndroidManifest.xml
-		INJECTED from C:\Users\stagiaire\Documents\GitHub\Android-Projects\HelloSharedPrefs\android-fundamentals-starter-apps-v2\HelloSharedPrefs\app\src\main\AndroidManifest.xml
+		ADDED from C:\Users\stagiaire\Documents\GitHub\Android-Projects\HelloSharedPrefs\app\src\main\AndroidManifest.xml:16:11-57
+		INJECTED from C:\Users\stagiaire\Documents\GitHub\Android-Projects\HelloSharedPrefs\app\src\main\AndroidManifest.xml
+		INJECTED from C:\Users\stagiaire\Documents\GitHub\Android-Projects\HelloSharedPrefs\app\src\main\AndroidManifest.xml
 	android:versionName
-		INJECTED from C:\Users\stagiaire\Documents\GitHub\Android-Projects\HelloSharedPrefs\android-fundamentals-starter-apps-v2\HelloSharedPrefs\app\src\main\AndroidManifest.xml
-		ADDED from C:\Users\stagiaire\Documents\GitHub\Android-Projects\HelloSharedPrefs\android-fundamentals-starter-apps-v2\HelloSharedPrefs\app\src\main\AndroidManifest.xml:15:1-32:12
-		INJECTED from C:\Users\stagiaire\Documents\GitHub\Android-Projects\HelloSharedPrefs\android-fundamentals-starter-apps-v2\HelloSharedPrefs\app\src\main\AndroidManifest.xml
+		INJECTED from C:\Users\stagiaire\Documents\GitHub\Android-Projects\HelloSharedPrefs\app\src\main\AndroidManifest.xml
+		ADDED from C:\Users\stagiaire\Documents\GitHub\Android-Projects\HelloSharedPrefs\app\src\main\AndroidManifest.xml:15:1-32:12
+		INJECTED from C:\Users\stagiaire\Documents\GitHub\Android-Projects\HelloSharedPrefs\app\src\main\AndroidManifest.xml
 	android:versionCode
-		INJECTED from C:\Users\stagiaire\Documents\GitHub\Android-Projects\HelloSharedPrefs\android-fundamentals-starter-apps-v2\HelloSharedPrefs\app\src\main\AndroidManifest.xml
-		ADDED from C:\Users\stagiaire\Documents\GitHub\Android-Projects\HelloSharedPrefs\android-fundamentals-starter-apps-v2\HelloSharedPrefs\app\src\main\AndroidManifest.xml:15:1-32:12
-		INJECTED from C:\Users\stagiaire\Documents\GitHub\Android-Projects\HelloSharedPrefs\android-fundamentals-starter-apps-v2\HelloSharedPrefs\app\src\main\AndroidManifest.xml
+		INJECTED from C:\Users\stagiaire\Documents\GitHub\Android-Projects\HelloSharedPrefs\app\src\main\AndroidManifest.xml
+		ADDED from C:\Users\stagiaire\Documents\GitHub\Android-Projects\HelloSharedPrefs\app\src\main\AndroidManifest.xml:15:1-32:12
+		INJECTED from C:\Users\stagiaire\Documents\GitHub\Android-Projects\HelloSharedPrefs\app\src\main\AndroidManifest.xml
 	xmlns:android
-		ADDED from C:\Users\stagiaire\Documents\GitHub\Android-Projects\HelloSharedPrefs\android-fundamentals-starter-apps-v2\HelloSharedPrefs\app\src\main\AndroidManifest.xml:15:11-69
+		ADDED from C:\Users\stagiaire\Documents\GitHub\Android-Projects\HelloSharedPrefs\app\src\main\AndroidManifest.xml:15:11-69
 application
-ADDED from C:\Users\stagiaire\Documents\GitHub\Android-Projects\HelloSharedPrefs\android-fundamentals-starter-apps-v2\HelloSharedPrefs\app\src\main\AndroidManifest.xml:18:5-30:19
+ADDED from C:\Users\stagiaire\Documents\GitHub\Android-Projects\HelloSharedPrefs\app\src\main\AndroidManifest.xml:18:5-30:19
 MERGED from [com.android.support.constraint:constraint-layout:1.1.2] C:\Users\stagiaire\.gradle\caches\transforms-2\files-2.1\0a0a39e98ebddf5dadaabb7363703ef0\AndroidManifest.xml:9:5-20
 MERGED from [com.android.support.constraint:constraint-layout:1.1.2] C:\Users\stagiaire\.gradle\caches\transforms-2\files-2.1\0a0a39e98ebddf5dadaabb7363703ef0\AndroidManifest.xml:9:5-20
 	android:supportsRtl
-		ADDED from C:\Users\stagiaire\Documents\GitHub\Android-Projects\HelloSharedPrefs\android-fundamentals-starter-apps-v2\HelloSharedPrefs\app\src\main\AndroidManifest.xml:22:9-35
+		ADDED from C:\Users\stagiaire\Documents\GitHub\Android-Projects\HelloSharedPrefs\app\src\main\AndroidManifest.xml:22:9-35
 	android:label
-		ADDED from C:\Users\stagiaire\Documents\GitHub\Android-Projects\HelloSharedPrefs\android-fundamentals-starter-apps-v2\HelloSharedPrefs\app\src\main\AndroidManifest.xml:21:9-41
+		ADDED from C:\Users\stagiaire\Documents\GitHub\Android-Projects\HelloSharedPrefs\app\src\main\AndroidManifest.xml:21:9-41
 	android:icon
-		ADDED from C:\Users\stagiaire\Documents\GitHub\Android-Projects\HelloSharedPrefs\android-fundamentals-starter-apps-v2\HelloSharedPrefs\app\src\main\AndroidManifest.xml:20:9-43
+		ADDED from C:\Users\stagiaire\Documents\GitHub\Android-Projects\HelloSharedPrefs\app\src\main\AndroidManifest.xml:20:9-43
 	android:allowBackup
-		ADDED from C:\Users\stagiaire\Documents\GitHub\Android-Projects\HelloSharedPrefs\android-fundamentals-starter-apps-v2\HelloSharedPrefs\app\src\main\AndroidManifest.xml:19:9-35
+		ADDED from C:\Users\stagiaire\Documents\GitHub\Android-Projects\HelloSharedPrefs\app\src\main\AndroidManifest.xml:19:9-35
 	android:theme
-		ADDED from C:\Users\stagiaire\Documents\GitHub\Android-Projects\HelloSharedPrefs\android-fundamentals-starter-apps-v2\HelloSharedPrefs\app\src\main\AndroidManifest.xml:23:9-40
+		ADDED from C:\Users\stagiaire\Documents\GitHub\Android-Projects\HelloSharedPrefs\app\src\main\AndroidManifest.xml:23:9-40
 activity#com.example.android.hellosharedprefs.MainActivity
-ADDED from C:\Users\stagiaire\Documents\GitHub\Android-Projects\HelloSharedPrefs\android-fundamentals-starter-apps-v2\HelloSharedPrefs\app\src\main\AndroidManifest.xml:24:9-29:20
+ADDED from C:\Users\stagiaire\Documents\GitHub\Android-Projects\HelloSharedPrefs\app\src\main\AndroidManifest.xml:24:9-29:20
 	android:name
-		ADDED from C:\Users\stagiaire\Documents\GitHub\Android-Projects\HelloSharedPrefs\android-fundamentals-starter-apps-v2\HelloSharedPrefs\app\src\main\AndroidManifest.xml:24:19-47
+		ADDED from C:\Users\stagiaire\Documents\GitHub\Android-Projects\HelloSharedPrefs\app\src\main\AndroidManifest.xml:24:19-47
 intent-filter#action:name:android.intent.action.MAIN+category:name:android.intent.category.LAUNCHER
-ADDED from C:\Users\stagiaire\Documents\GitHub\Android-Projects\HelloSharedPrefs\android-fundamentals-starter-apps-v2\HelloSharedPrefs\app\src\main\AndroidManifest.xml:25:13-28:29
+ADDED from C:\Users\stagiaire\Documents\GitHub\Android-Projects\HelloSharedPrefs\app\src\main\AndroidManifest.xml:25:13-28:29
 action#android.intent.action.MAIN
-ADDED from C:\Users\stagiaire\Documents\GitHub\Android-Projects\HelloSharedPrefs\android-fundamentals-starter-apps-v2\HelloSharedPrefs\app\src\main\AndroidManifest.xml:26:17-69
+ADDED from C:\Users\stagiaire\Documents\GitHub\Android-Projects\HelloSharedPrefs\app\src\main\AndroidManifest.xml:26:17-69
 	android:name
-		ADDED from C:\Users\stagiaire\Documents\GitHub\Android-Projects\HelloSharedPrefs\android-fundamentals-starter-apps-v2\HelloSharedPrefs\app\src\main\AndroidManifest.xml:26:25-66
+		ADDED from C:\Users\stagiaire\Documents\GitHub\Android-Projects\HelloSharedPrefs\app\src\main\AndroidManifest.xml:26:25-66
 category#android.intent.category.LAUNCHER
-ADDED from C:\Users\stagiaire\Documents\GitHub\Android-Projects\HelloSharedPrefs\android-fundamentals-starter-apps-v2\HelloSharedPrefs\app\src\main\AndroidManifest.xml:27:17-77
+ADDED from C:\Users\stagiaire\Documents\GitHub\Android-Projects\HelloSharedPrefs\app\src\main\AndroidManifest.xml:27:17-77
 	android:name
-		ADDED from C:\Users\stagiaire\Documents\GitHub\Android-Projects\HelloSharedPrefs\android-fundamentals-starter-apps-v2\HelloSharedPrefs\app\src\main\AndroidManifest.xml:27:27-74
+		ADDED from C:\Users\stagiaire\Documents\GitHub\Android-Projects\HelloSharedPrefs\app\src\main\AndroidManifest.xml:27:27-74
 uses-sdk
-INJECTED from C:\Users\stagiaire\Documents\GitHub\Android-Projects\HelloSharedPrefs\android-fundamentals-starter-apps-v2\HelloSharedPrefs\app\src\main\AndroidManifest.xml reason: use-sdk injection requested
-INJECTED from C:\Users\stagiaire\Documents\GitHub\Android-Projects\HelloSharedPrefs\android-fundamentals-starter-apps-v2\HelloSharedPrefs\app\src\main\AndroidManifest.xml
-INJECTED from C:\Users\stagiaire\Documents\GitHub\Android-Projects\HelloSharedPrefs\android-fundamentals-starter-apps-v2\HelloSharedPrefs\app\src\main\AndroidManifest.xml
+INJECTED from C:\Users\stagiaire\Documents\GitHub\Android-Projects\HelloSharedPrefs\app\src\main\AndroidManifest.xml reason: use-sdk injection requested
+INJECTED from C:\Users\stagiaire\Documents\GitHub\Android-Projects\HelloSharedPrefs\app\src\main\AndroidManifest.xml
+INJECTED from C:\Users\stagiaire\Documents\GitHub\Android-Projects\HelloSharedPrefs\app\src\main\AndroidManifest.xml
 MERGED from [com.android.support:appcompat-v7:27.1.1] C:\Users\stagiaire\.gradle\caches\transforms-2\files-2.1\5be613003c05b1879471f633d8088d47\AndroidManifest.xml:20:5-44
 MERGED from [com.android.support:appcompat-v7:27.1.1] C:\Users\stagiaire\.gradle\caches\transforms-2\files-2.1\5be613003c05b1879471f633d8088d47\AndroidManifest.xml:20:5-44
 MERGED from [com.android.support.constraint:constraint-layout:1.1.2] C:\Users\stagiaire\.gradle\caches\transforms-2\files-2.1\0a0a39e98ebddf5dadaabb7363703ef0\AndroidManifest.xml:5:5-7:41
@@ -89,13 +89,13 @@ MERGED from [android.arch.lifecycle:runtime:1.1.0] C:\Users\stagiaire\.gradle\ca
 MERGED from [android.arch.lifecycle:runtime:1.1.0] C:\Users\stagiaire\.gradle\caches\transforms-2\files-2.1\fcf8138f5ca2980f0ccb9eeb8d459b0e\AndroidManifest.xml:20:5-44
 MERGED from [android.arch.core:runtime:1.1.0] C:\Users\stagiaire\.gradle\caches\transforms-2\files-2.1\8009aeb2611141caf13c708fcc8b476e\AndroidManifest.xml:20:5-44
 MERGED from [android.arch.core:runtime:1.1.0] C:\Users\stagiaire\.gradle\caches\transforms-2\files-2.1\8009aeb2611141caf13c708fcc8b476e\AndroidManifest.xml:20:5-44
-INJECTED from C:\Users\stagiaire\Documents\GitHub\Android-Projects\HelloSharedPrefs\android-fundamentals-starter-apps-v2\HelloSharedPrefs\app\src\main\AndroidManifest.xml
-INJECTED from C:\Users\stagiaire\Documents\GitHub\Android-Projects\HelloSharedPrefs\android-fundamentals-starter-apps-v2\HelloSharedPrefs\app\src\main\AndroidManifest.xml
+INJECTED from C:\Users\stagiaire\Documents\GitHub\Android-Projects\HelloSharedPrefs\app\src\main\AndroidManifest.xml
+INJECTED from C:\Users\stagiaire\Documents\GitHub\Android-Projects\HelloSharedPrefs\app\src\main\AndroidManifest.xml
 	android:targetSdkVersion
-		INJECTED from C:\Users\stagiaire\Documents\GitHub\Android-Projects\HelloSharedPrefs\android-fundamentals-starter-apps-v2\HelloSharedPrefs\app\src\main\AndroidManifest.xml
-		ADDED from C:\Users\stagiaire\Documents\GitHub\Android-Projects\HelloSharedPrefs\android-fundamentals-starter-apps-v2\HelloSharedPrefs\app\src\main\AndroidManifest.xml
-		INJECTED from C:\Users\stagiaire\Documents\GitHub\Android-Projects\HelloSharedPrefs\android-fundamentals-starter-apps-v2\HelloSharedPrefs\app\src\main\AndroidManifest.xml
+		INJECTED from C:\Users\stagiaire\Documents\GitHub\Android-Projects\HelloSharedPrefs\app\src\main\AndroidManifest.xml
+		ADDED from C:\Users\stagiaire\Documents\GitHub\Android-Projects\HelloSharedPrefs\app\src\main\AndroidManifest.xml
+		INJECTED from C:\Users\stagiaire\Documents\GitHub\Android-Projects\HelloSharedPrefs\app\src\main\AndroidManifest.xml
 	android:minSdkVersion
-		INJECTED from C:\Users\stagiaire\Documents\GitHub\Android-Projects\HelloSharedPrefs\android-fundamentals-starter-apps-v2\HelloSharedPrefs\app\src\main\AndroidManifest.xml
-		ADDED from C:\Users\stagiaire\Documents\GitHub\Android-Projects\HelloSharedPrefs\android-fundamentals-starter-apps-v2\HelloSharedPrefs\app\src\main\AndroidManifest.xml
-		INJECTED from C:\Users\stagiaire\Documents\GitHub\Android-Projects\HelloSharedPrefs\android-fundamentals-starter-apps-v2\HelloSharedPrefs\app\src\main\AndroidManifest.xml
+		INJECTED from C:\Users\stagiaire\Documents\GitHub\Android-Projects\HelloSharedPrefs\app\src\main\AndroidManifest.xml
+		ADDED from C:\Users\stagiaire\Documents\GitHub\Android-Projects\HelloSharedPrefs\app\src\main\AndroidManifest.xml
+		INJECTED from C:\Users\stagiaire\Documents\GitHub\Android-Projects\HelloSharedPrefs\app\src\main\AndroidManifest.xml

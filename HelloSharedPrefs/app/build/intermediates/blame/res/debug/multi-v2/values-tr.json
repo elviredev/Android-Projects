@@ -1,7 +1,7 @@
 {
     "logs": [
         {
-            "outputFile": "C:\\Users\\stagiaire\\Documents\\GitHub\\Android-Projects\\HelloSharedPrefs\\android-fundamentals-starter-apps-v2\\HelloSharedPrefs\\app\\build\\intermediates\\incremental\\mergeDebugResources\\merged.dir\\values-tr\\values-tr.xml",
+            "outputFile": "C:\\Users\\stagiaire\\Documents\\GitHub\\Android-Projects\\HelloSharedPrefs\\app\\build\\intermediates\\incremental\\mergeDebugResources\\merged.dir\\values-tr\\values-tr.xml",
             "map": [
                 {
                     "source": "C:\\Users\\stagiaire\\.gradle\\caches\\transforms-2\\files-2.1\\662a0383c33b3a343ad97f6f482cbd00\\res\\values-tr\\values-tr.xml",
