@@ -86,7 +86,7 @@ public class DbHandler extends SQLiteOpenHelper {
         return userList;
     }
 
-    // Récupérer un seul utilisateur à partir de son ID
+    // (READ) Récupérer un seul utilisateur à partir de son ID
     public ArrayList<HashMap<String, String>> getUserByUserId (int userId){
         SQLiteDatabase db = this.getReadableDatabase();
         ArrayList<HashMap<String, String>> user = new ArrayList<>();
@@ -104,13 +104,12 @@ public class DbHandler extends SQLiteOpenHelper {
         return user;
     }
 
-
-
-
-
-
-
-
+    // (DELETE) suppression d'un user à partir du userId
+    public void deleteUser(int userId) {
+        SQLiteDatabase db = this.getWritableDatabase();
+        db.delete(TABLE_USERS, KEY_ID + "=?", new String[]{String.format("%s", userId)});
+        db.close();
+    }
 
 
 
