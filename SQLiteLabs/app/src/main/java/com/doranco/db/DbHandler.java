@@ -44,9 +44,9 @@ public class DbHandler extends SQLiteOpenHelper {
         onCreate(sqLiteDatabase);
     }
 
-    // *** CRUD (Create, read, Update, Delete)
+    // *** CRUD (Create, Read, Update, Delete)
 
-    //Ajout d'un nouveau user
+    // (CREATE) Ajout d'un nouveau user
     public void insertUserDetails(String name, String location, String designation){
         // Récupèrer le repository en écriture
         SQLiteDatabase db  = this.getWritableDatabase();
@@ -61,10 +61,9 @@ public class DbHandler extends SQLiteOpenHelper {
         long newRowId = db.insert(TABLE_USERS, null, cValues);
         Log.d(TAG, "New user added with primary key " + newRowId);
         db.close();
-
     }
 
-    // (READ) récupérer les données
+    // (READ) récupérer les utilisateurs
     public ArrayList<HashMap<String, String>> getUsers(){
         // Récupérer le repository en lecture
         SQLiteDatabase db = this.getReadableDatabase();
@@ -81,8 +80,38 @@ public class DbHandler extends SQLiteOpenHelper {
             user.put(KEY_NAME, cursor.getString(cursor.getColumnIndex(KEY_NAME)));
             user.put(KEY_LOC, cursor.getString(cursor.getColumnIndex(KEY_LOC)));
             user.put(KEY_DESG, cursor.getString(cursor.getColumnIndex(KEY_DESG)));
+
             userList.add(user);
         }
         return userList;
     }
+
+    // Récupérer un seul utilisateur à partir de son ID
+    public ArrayList<HashMap<String, String>> getUserByUserId (int userId){
+        SQLiteDatabase db = this.getReadableDatabase();
+        ArrayList<HashMap<String, String>> user = new ArrayList<>();
+        String query = "SELECT * FROM " + TABLE_USERS;
+        Cursor cursor = db.query(TABLE_USERS, new String[]{KEY_NAME, KEY_LOC, KEY_DESG}, KEY_ID + "=?",
+                new String[]{String.valueOf(userId)}, null, null, null, null);
+        if(cursor.moveToNext()) {
+            HashMap<String, String> result = new HashMap<>();
+            result.put(KEY_NAME, cursor.getString(cursor.getColumnIndex(KEY_NAME)));
+            result.put(KEY_LOC, cursor.getString(cursor.getColumnIndex(KEY_LOC)));
+            result.put(KEY_DESG, cursor.getString(cursor.getColumnIndex(KEY_DESG)));
+
+            user.add(result);
+        }
+        return user;
+    }
+
+
+
+
+
+
+
+
+
+
+
 }
