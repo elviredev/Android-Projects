@@ -14,13 +14,19 @@ public class DbHandler extends SQLiteOpenHelper {
     private static final String KEY_LOC = "location";
     private static final String KEY_DESG = "designation";
 
-    public DbHandler(Context context, String name, SQLiteDatabase.CursorFactory factory, int version) {
-        super(context, name, factory, version);
+    // constructor
+    public DbHandler(Context context) {
+        super(context, DB_NAME, null, DB_VERSION);
     }
 
     @Override
     public void onCreate(SQLiteDatabase sqLiteDatabase) {
-
+        String CREATE_TABLE = "CREATE TABLE " + TABLE_USERS + "("
+                + KEY_ID + " INTEGER PRIMARY KEY AUTOINCREMENT,"
+                + KEY_NAME + " TEXT,"
+                + KEY_LOC + " TEXT,"
+                + KEY_DESG + " TEXT" + ")";
+        sqLiteDatabase.execSQL(CREATE_TABLE);
     }
 
     @Override
