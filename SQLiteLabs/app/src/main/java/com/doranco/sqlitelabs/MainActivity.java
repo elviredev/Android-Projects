@@ -40,8 +40,8 @@ public class MainActivity extends AppCompatActivity {
             public void onClick(View view) {
                 // Récupère les éléments saisis par utilisateur
                 String username = mUsername.getText().toString();
-                String location = mLocation.getText().toString();
-                String designation = mDesignation.getText().toString();
+                String location = mUserLocation.getText().toString();
+                String designation = mUserDesignation.getText().toString();
                 // insertion d'un user dans SQLite
                 DbHandler dbHandler = new DbHandler(MainActivity.this);
                 dbHandler.insertUserDetails(username, location, designation);
