@@ -1,3 +1,11 @@
 <resources>
     <string name="app_name">SQLiteLabs</string>
+    <string name="name">Name</string>
+    <string name="location">Location</string>
+    <string name="designation">Designation</string>
+    <string name="save">SAVE</string>
+    <string name="back">BACK</string>
+    <string name="default_name">Default_name</string>
+    <string name="default_location">Default_location</string>
+    <string name="default_designation">Default_designation</string>
 </resources>
