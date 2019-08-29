@@ -2,9 +2,13 @@ package com.doranco.db;
 
 import android.content.ContentValues;
 import android.content.Context;
+import android.database.Cursor;
 import android.database.sqlite.SQLiteDatabase;
 import android.database.sqlite.SQLiteOpenHelper;
 import android.util.Log;
+
+import java.util.ArrayList;
+import java.util.HashMap;
 
 public class DbHandler extends SQLiteOpenHelper {
 
@@ -58,5 +62,27 @@ public class DbHandler extends SQLiteOpenHelper {
         Log.d(TAG, "New user added with primary key " + newRowId);
         db.close();
 
+    }
+
+    // (READ) récupérer les données
+    public ArrayList<HashMap<String, String>> getUsers(){
+        // Récupérer le repository en lecture
+        SQLiteDatabase db = this.getReadableDatabase();
+        // Créer liste des users
+        ArrayList<HashMap<String, String>> userList = new ArrayList<>();
+        // Requête
+        String query = "SELECT name, location, designation FROM " + TABLE_USERS;
+        // Créer curseur et itérer sur les users
+        Cursor cursor = db.rawQuery(query, null);
+        while (cursor.moveToNext()) {
+            // Récupérer user
+            HashMap<String, String> user = new HashMap<>();
+            // Récupérer le nom, location et designation de l'user
+            user.put(KEY_NAME, cursor.getString(cursor.getColumnIndex(KEY_NAME)));
+            user.put(KEY_LOC, cursor.getString(cursor.getColumnIndex(KEY_LOC)));
+            user.put(KEY_DESG, cursor.getString(cursor.getColumnIndex(KEY_DESG)));
+            userList.add(user);
+        }
+        return userList;
     }
 }
