@@ -111,6 +111,16 @@ public class DbHandler extends SQLiteOpenHelper {
         db.close();
     }
 
+    // (UPDATE) user
+    public int updateUser(String name, String location, String designation, int id) {
+        SQLiteDatabase db = this.getWritableDatabase();
+        ContentValues cVals = new ContentValues();
+        cVals.put(KEY_NAME, name);
+        cVals.put(KEY_LOC, location);
+        cVals.put(KEY_DESG, designation);
+        int count = db.update(TABLE_USERS, cVals, KEY_ID + "=?", new String[]{String.format("%s", id)});
+        return count;
+    }
 
 
 }
