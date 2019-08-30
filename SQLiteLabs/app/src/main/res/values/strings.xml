@@ -5,7 +5,10 @@
     <string name="designation">Designation</string>
     <string name="save">SAVE</string>
     <string name="back">BACK</string>
-    <string name="default_name">Default_name</string>
-    <string name="default_location">Default_location</string>
-    <string name="default_designation">Default_designation</string>
+    <string name="default_name">Default name</string>
+    <string name="default_location">Default location</string>
+    <string name="default_designation">Default designation</string>
+    <string name="details_saved">Details saved</string>
+    <string name="enter_the_user_id">Enter the user id</string>
+    <string name="user_id">User Id</string>
 </resources>
