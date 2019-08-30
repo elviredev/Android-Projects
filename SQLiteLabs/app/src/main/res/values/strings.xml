@@ -16,4 +16,5 @@
     <string name="default_user">default user</string>
     <string name="user_info">The user with the name %1$s stays at %2$s and works as a %3$s.</string>
     <string name="search_by_id">Search By Id</string>
+    <string name="user_not_found">This user was not found</string>
 </resources>

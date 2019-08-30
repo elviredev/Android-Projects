@@ -34,7 +34,7 @@ public class MainActivity extends AppCompatActivity {
         mUserLocation = findViewById(R.id.location_edittext);
         mUserDesignation = findViewById(R.id.designation_edittext);
         mSaveButton = findViewById(R.id.btnSave);
-        mSearchButton = findViewById(R.id.searchBtn);
+        mSearchButton = findViewById(R.id.btnSearch);
 
         // Event onClick() sur SAVE
         mSaveButton.setOnClickListener(new View.OnClickListener() {

@@ -49,8 +49,11 @@ public class SearchUserActivity extends AppCompatActivity {
                         String designation = myUser.get(DbHandler.KEY_DESG);
                         // Afficher message
                         mUserFound.setText(String.format(getString(R.string.user_info), name, location, designation));
+
                     } else {
                         mUserFound.setVisibility(View.INVISIBLE);
+                        Toast.makeText(SearchUserActivity.this, getString(R.string.user_not_found), Toast.LENGTH_SHORT).show();
+
                     }
                 } else {
                     Toast.makeText(SearchUserActivity.this, getString(R.string.enter_user_id), Toast.LENGTH_SHORT).show();
