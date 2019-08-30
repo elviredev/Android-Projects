@@ -20,6 +20,7 @@ public class MainActivity extends AppCompatActivity {
     private EditText mUserLocation;
     private EditText mUserDesignation;
     private Button mSaveButton;
+    private Button mSearchButton;
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
@@ -33,8 +34,9 @@ public class MainActivity extends AppCompatActivity {
         mUserLocation = findViewById(R.id.location_edittext);
         mUserDesignation = findViewById(R.id.designation_edittext);
         mSaveButton = findViewById(R.id.btnSave);
+        mSearchButton = findViewById(R.id.searchBtn);
 
-        // Event onClick()
+        // Event onClick() sur SAVE
         mSaveButton.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View view) {
@@ -49,6 +51,15 @@ public class MainActivity extends AppCompatActivity {
                 Intent intent = new Intent(MainActivity.this, DetailsActivity.class);
                 startActivity(intent);
                 Toast.makeText(MainActivity.this, getString(R.string.details_saved), Toast.LENGTH_SHORT).show();
+            }
+        });
+
+        // Event onClick() sur SEARCH BY ID
+        mSearchButton.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View view) {
+                Intent intent = new Intent(MainActivity.this, SearchUserActivity.class);
+                startActivity(intent);
             }
         });
     }
