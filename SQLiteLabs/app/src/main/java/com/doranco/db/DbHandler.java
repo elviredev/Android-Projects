@@ -17,9 +17,9 @@ public class DbHandler extends SQLiteOpenHelper {
     private static final String DB_NAME = "userdb";
     private static final String TABLE_USERS = "userdetails";
     private static final String KEY_ID = "id";
-    private static final String KEY_NAME = "name";
-    private static final String KEY_LOC = "location";
-    private static final String KEY_DESG = "designation";
+    public static final String KEY_NAME = "name";
+    public static final String KEY_LOC = "location";
+    public static final String KEY_DESG = "designation";
 
     // constructor
     public DbHandler(Context context) {

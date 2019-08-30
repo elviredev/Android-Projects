@@ -11,4 +11,8 @@
     <string name="details_saved">Details saved</string>
     <string name="enter_the_user_id">Enter the user id</string>
     <string name="user_id">User Id</string>
+    <string name="search">Search</string>
+    <string name="enter_user_id">Please, enter a userId</string>
+    <string name="default_user">default user</string>
+    <string name="user_info">The user with the name %1$s stays at %2$s and works as a %3$s.</string>
 </resources>
